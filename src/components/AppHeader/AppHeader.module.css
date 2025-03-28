@@ -1,0 +1,35 @@
+.header {
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.09); /* Мягкая тень вместо линии */
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 6px;
+  padding-left: 0;
+  margin: 0;
+}
+
+.linkNormal {
+  display: inline-block;
+  padding: 8px 16px;
+  color: #666;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.linkNormal:hover {
+  color: #0066ff;
+  border-bottom-color: #99ccff;
+}
+
+.linkNormal.active {
+  color: #0066ff;
+  border-bottom-color: #0066ff;
+  font-weight: bold;
+}

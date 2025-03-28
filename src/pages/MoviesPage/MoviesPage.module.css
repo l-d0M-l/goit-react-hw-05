@@ -1,0 +1,36 @@
+.input {
+  flex-grow: 1;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px 0 0 6px;
+  font-size: 12px;
+  outline: none;
+  transition: all 0.3s ease;
+  margin-right: 5px;
+}
+
+.input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.searchBtn {
+  padding: 8px 12px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.searchBtn:hover {
+  background-color: #3a7bc8;
+}
+
+.searchBtn:active {
+  background-color: #2a65a8;
+  transform: translateY(1px);
+}
